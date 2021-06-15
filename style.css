@@ -1,0 +1,122 @@
+.nav-wrapper{
+    background: #444;    
+}
+
+body{
+    background: #ccc;
+}
+
+hr{
+    height: 4px;
+}
+.brand-logo{
+    margin-left: 5%;
+}
+
+h5{
+    text-align: center;
+    padding: 1%;
+}
+
+#redes{
+    text-align: center;
+}
+#redes button{
+    margin: 3%;
+    width: 14%;
+    background-color: #222;
+}
+
+
+#redes button:hover{
+    background-color: #444;
+}
+
+i{
+    font-size:16px;
+}
+
+#dados_pessoais p{
+    margin-left: 18%;
+}
+
+#lado1{
+    display: inline-block;
+    width: 80%;
+   text-align: center;
+   margin-left: 8%;
+    
+}
+#um{
+    display: inline-block;
+    margin-left: 5%;
+    width: 30%;
+}
+
+footer p{
+    background-color: #aaa;
+    padding: 2%;
+    
+    text-align: center;
+}
+
+#dois{
+    display: inline-block;
+    float: right;
+    width: 50%;
+    margin-right: 10%;
+    
+}
+
+#carreira{
+    text-align: center;
+}
+
+h5{
+    background-color: #aaa;
+}
+@media only screen and (max-width: 600px) {
+    #lado1{
+        display: flex;
+        width: 100%;
+        
+        
+    }
+    
+    #lado2{
+        display: flex;
+        width: 100%;
+        
+    }
+    #um{
+        display:flex;
+        margin-left: 5%;
+    }
+    
+    #dois{
+        display: flex;
+        float: right;
+        margin-right: 10%;
+        
+    }
+
+}
+
+#footer_navegar li{
+    font-size: 20px;
+    background-color: #FFF;
+    margin-left: 5%;
+}
+
+#footer_navegar li:hover{
+    background-color: #aaa;
+}
+#footer_navegar a{
+    font-size: 20px;
+    color: #000;
+ 
+} 
+#footer_navegar a:hover{
+    font-size: 23px;
+    color: #333;
+}
