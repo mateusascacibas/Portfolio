@@ -78,16 +78,11 @@ h5{
 @media only screen and (max-width: 600px) {
     #lado1{
         display: flex;
-        width: 100%;
-        
+        width: 80%;
         
     }
     
-    #lado2{
-        display: flex;
-        width: 100%;
-        
-    }
+  
     #um{
         display:flex;
         margin-left: 5%;
