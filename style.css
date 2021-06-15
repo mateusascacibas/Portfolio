@@ -42,7 +42,7 @@ i{
 
 #lado1{
     display: inline-block;
-    width: 90%;
+    width: 80%;
    text-align: center;
    margin-left: 8%;
     
@@ -77,27 +77,23 @@ h5{
 }
 @media only screen and (max-width: 600px) {
     #lado1{
-        display: flex;
-        width: 80%;
-        
+        display: inline-block;
+        width: 90%;
     }
-       #redes button{
-        
+    #redes button{
+        margin: 3%;
         width: 18%;
-        
+        background-color: #222;
     }
-  
-    
   
     #um{
-        display:flex;
-        margin-left: 5%;
+        display:inline;
+        text-align: center;
     }
     
     #dois{
-        display: flex;
-        float: right;
-        margin-right: 10%;
+        display: inline;
+        margin-right: 25%;
         
     }
 
